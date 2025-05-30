@@ -1,0 +1,1 @@
+[material-components-android/docs/components/Switch.md at master · material-components/material-components-android](https://github.com/material-components/material-components-android/blob/master/docs/components/Switch.md)
