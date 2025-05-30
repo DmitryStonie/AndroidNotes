@@ -1,0 +1,2 @@
+# ViewGroup
+есть margin

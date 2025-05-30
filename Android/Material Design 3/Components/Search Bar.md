@@ -1,1 +1,2 @@
+# Search Bar
 [material-components-android/docs/components/Search.md at master · material-components/material-components-android](https://github.com/material-components/material-components-android/blob/master/docs/components/Search.md)

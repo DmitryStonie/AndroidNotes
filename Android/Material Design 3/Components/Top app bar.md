@@ -1,3 +1,4 @@
+# Top app bar
 [material-components-android/docs/components/TopAppBar.md at master · material-components/material-components-android](https://github.com/material-components/material-components-android/blob/master/docs/components/TopAppBar.md)
 
 Проблем с ним много. Основная - не понятно, как его добавить, чтобы EdgeToEdge корректно работал. Я добавляю компонент через Include, и topbar наезжает на него.

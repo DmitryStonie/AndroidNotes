@@ -1,3 +1,4 @@
+# Permissions
 [Permissions в Android: как не допустить ошибок при разработке / Хабр](https://habr.com/ru/companies/swordfish_security/articles/741574/) - сложные советы
 [Manifest.permission  |  API reference  |  Android Developers](https://developer.android.com/reference/android/Manifest.permission#ACCEPT_HANDOVER) - Список всех permissions
 [Android permissions](https://startandroid.ru/ru/blog/508-android-permissions.html) - просто и понятно

@@ -1,3 +1,4 @@
+# Uri
 ## get filetype by uri
 https://stackoverflow.com/questions/12473851/how-i-can-get-the-mime-type-of-a-file-having-its-uri - устаревшее, код нерабочий
 https://developer.android.com/training/secure-file-sharing/retrieve-info - норм

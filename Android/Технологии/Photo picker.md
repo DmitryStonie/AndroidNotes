@@ -1,3 +1,4 @@
+# Photo picker
 https://developer.android.com/training/data-storage/shared/photopicker
 ## где взять registerForActivityResult
 из activity. лучше в фрагменте это вызывать, нежели в viewModel

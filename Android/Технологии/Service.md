@@ -1,3 +1,4 @@
+# Service
 ## To call Service. startForeground(), the /<service/> element of manifest file must have the foregroundServiceType attribute specified
 https://stackoverflow.com/questions/78106162/how-do-i-know-the-foregroundservicetype-for-a-particular-foreground-service
 https://stackoverflow.com/questions/77630944/foreground-service-type-for-timer - какой для секундомера
