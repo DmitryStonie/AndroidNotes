@@ -1,4 +1,6 @@
 # RecyclerView
+## Examples
+[views-widgets-samples/RecyclerViewKotlin at main · android/views-widgets-samples](https://github.com/android/views-widgets-samples/tree/main/RecyclerViewKotlin/)
 ## Dependencies
 
 ## Базовый RecyclerView
@@ -75,3 +77,13 @@ val params = holder.view.findViewById<ConstraintLayout>(R.id.element).layoutPara
 params.height = (parent.height * 0.2).toInt()  
 holder.view.layoutParams = params
 ```
+## ItemDecoration
+[Кастомный ItemDecoration для RecyclerView / Хабр](https://habr.com/ru/articles/532552/)
+#### Для GridLayoutManager
+[gridview - Android Recyclerview GridLayoutManager column spacing - Stack Overflow](https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing)
+[Советы для профессионального использования RecyclerView. Часть 2 / Хабр](https://habr.com/ru/articles/426773/) - четные, нечетные элементы
+[Android RecyclerView finding out first and last view on ItemDecoration - Stack Overflow](https://stackoverflow.com/questions/29666598/android-recyclerview-finding-out-first-and-last-view-on-itemdecoration) - как узнать первый и последний элемент
+#### ItemDecoration applies multiple times
+
+## RecyclerView element height
+[android - How to handle variable height image in RecyclerView? - Stack Overflow](https://stackoverflow.com/questions/55767695/how-to-handle-variable-height-image-in-recyclerview)

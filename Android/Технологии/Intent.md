@@ -20,5 +20,10 @@ AttachedFileItem.Type.Image.value -> {
     context.startActivity(chooser)  
 }
 ```
+## Get started
+[Intent  |  API reference  |  Android Developers](https://developer.android.com/reference/android/content/Intent)
+Как это устроено [Intents and intent filters  |  App architecture  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
+Тема тесно связана с Manifest
+#### посмотреть intent-фильтры всех приложений на телефоне
 
 

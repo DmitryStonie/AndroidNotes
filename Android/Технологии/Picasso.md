@@ -11,3 +11,11 @@ implementation("com.squareup.picasso:picasso:2.8")
 ## масштабировать фото
 ## load to recyclerView
 [android - how to set image in RecyclerView using Picasso - Stack Overflow](https://stackoverflow.com/questions/63082166/how-to-set-image-in-recyclerview-using-picasso)
+## Set default image
+[android - is there a way to load a default image in picasso - Stack Overflow](https://stackoverflow.com/questions/26670400/is-there-a-way-to-load-a-default-image-in-picasso)
+#### without load
+Типо того, в load передать resourse Id
+Drawable: Просто не надо
+```
+view.setImageDrawable(placeholder)
+```

@@ -8,9 +8,6 @@
 [Tasks and the back stack  |  Android Developers](https://developer.android.com/guide/components/activities/tasks-and-back-stack)
 (https://developer.android.com/guide/topics/manifest/activity-element#lmode)
 [[Activity backstack]]
-## Свои шрифты
-[android - How to use specified weights for fonts in XML - Stack Overflow](https://stackoverflow.com/questions/46589519/how-to-use-specified-weights-for-fonts-in-xml)
-[Add a font as an XML resource  |  Views  |  Android Developers](https://developer.android.com/develop/ui/views/text-and-emoji/fonts-in-xml)
 ## Подгон изображения по ширине
 android:scaleType="centerCrop"
 ## Строковый ресурс

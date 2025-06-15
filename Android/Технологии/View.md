@@ -45,3 +45,5 @@ setContentView(view)
 ![[Pasted image 20250209142812.png]]
 ## handle long click
 https://stackoverflow.com/questions/9589895/how-to-handle-long-click-in-android
+## Change view color programmaticaly
+[android - Set Background color programmatically - Stack Overflow](https://stackoverflow.com/questions/23517879/set-background-color-programmatically)

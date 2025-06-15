@@ -76,4 +76,8 @@ Call<List<User>> groupList(@Path("id") int groupId);
 
 ## GEt empty annotation
 [json - Retrofit GET without a value in Android - Stack Overflow](https://stackoverflow.com/questions/31962817/retrofit-get-without-a-value-in-android)
-	
+## Error handling
+[Handling errors with Retrofit and Coroutines in a single place | by Douglas Iacovelli | Medium](https://medium.com/@douglas.iacovelli/how-to-handle-errors-with-retrofit-and-coroutines-33e7492a912)
+[kotlin - Android. Coroutine. Retrofit 2. Handler Error - Stack Overflow на русском](https://ru.stackoverflow.com/questions/1152545/android-coroutine-retrofit-2-handler-error)
+## Unable to resolve host "api.openweathermap.org": No address associated with hostname
+Не было интернета
