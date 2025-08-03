@@ -1,5 +1,27 @@
 # Retrofit
+## Как подключить #гайд
+#### 1. libs.versions.toml
+```
+[versions]
+retrofit = "2.11.0"
+okhttp = "4.12.0"
+
+[libraries]
+retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit"}
+retrofit-converter-kotlinxserialization = { module = "com.squareup.retrofit2:converter-kotlinx-serialization", version.ref = "retrofit"}
+okhttp-logginginterceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp"}
+
+```
+#### 2. build.gradle (module)
+```
+dependencies {   
+	implementation(libs.retrofit.core)
+    implementation(libs.retrofit.converter.kotlinxserialization)
+    implementation(libs.okhttp.logginginterceptor)
+}
+```
 ## dependencies
+
 ```
 dependencies {
 	val retrofit_version = "2.11.0" 

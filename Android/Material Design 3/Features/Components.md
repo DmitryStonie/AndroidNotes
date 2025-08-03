@@ -3,7 +3,7 @@
 ## Components
 [[Bottom navigation]]
 [[Bottom Sheets]]
-[[Buttons]]
+[[Android/Material Design 3/Components/Buttons]]
 [[Checkbox]]
 [[Chips]]
 [[Date Pickers]]

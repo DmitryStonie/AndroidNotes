@@ -1,4 +1,40 @@
 # Dagger2
+## Как подключить #гайд
+#### 1. Добавить в libs.versions.toml
+```
+[versions]
+ksp = "2.0.21-1.0.27"
+dagger = "2.56.2"
+
+
+[libraries]
+dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+
+[plugins]
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+```
+#### 2. build.gradle (package)
+```
+plugins{
+	alias(libs.plugins.google.devtools.ksp) apply false
+}
+```
+#### 3. build.gradle (module)
+```
+plugins {
+    alias(libs.plugins.google.devtools.ksp)
+}
+
+dependencies {   
+	implementation(libs.dagger)
+	ksp(libs.dagger.compiler)
+}
+```
+## Dagger multimodule clean
+
+
 ## Как подключить dagger
 [курс Dagger 2 (1)](https://www.youtube.com/watch?v=1dOsef2ZzQ8&list=PL0SwNXKJbuNkYFUda5rlA-odAVyWItRCP&index=2)
 3:43
@@ -8,6 +44,10 @@ id("kotlin-kapt")
 dependencies:
 implementation(libs.dagger)  
 kapt(libs.dagger.compiler)
+## Dagger и KSP (alpha)
+[Dagger KSP](https://dagger.dev/dev-guide/ksp.html)
+[Migrate from kapt to KSP  |  Android Studio  |  Android Developers](https://developer.android.com/build/migrate-to-ksp)
+[Android Kotlin KSP plugin with Gradle Catalogs - Stack Overflow](https://stackoverflow.com/questions/77375240/android-kotlin-ksp-plugin-with-gradle-catalogs)
 
 | Источник                                                                                                               | Информация                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,3 +65,17 @@ https://search.app?link=https%3A%2F%2Fhabr.com%2Fru%2Fcompanies%2Fwrike%2Farticl
 [Assisted Injection](https://dagger.dev/dev-guide/assisted-injection.html)
 ## Inject в viewModel
 -- [Dagger2 и архитектурный компонент «ViewModel» / Хабр](https://habr.com/ru/articles/337320/)-- старый код
+[Dagger 2 and Jetpack Compose Integration | by Alexey Glukharev | ProAndroidDev](https://proandroiddev.com/dagger-2-and-jetpack-compose-integration-8a8d424ffdb4) - в composable
+## Dagger retrofit network module
+[android - How should I use Dagger2 with Retrofit? - Stack Overflow](https://stackoverflow.com/questions/56597042/how-should-i-use-dagger2-with-retrofit)
+## Dagger module inside another
+[java - Module depending on another module in Dagger - Stack Overflow](https://stackoverflow.com/questions/24668957/module-depending-on-another-module-in-dagger)
+
+## Guide
+[Dagger](https://dagger.dev/dev-guide/)
+## Dagger and composable
+[Injecting Composables with Dagger without losing it | by Costa Fotiadis | ProAndroidDev](https://proandroiddev.com/injecting-composables-with-dagger-without-losing-it-bcf5a6988229)
+[Dagger 2 and Jetpack Compose Integration | by Alexey Glukharev | ProAndroidDev](https://proandroiddev.com/dagger-2-and-jetpack-compose-integration-8a8d424ffdb4) - годно
+На самом деле все плохо, функция @Composable по нескольку раз вызывается
+[Navigation Compose recreating ViewModel each time. : r/androiddev](https://www.reddit.com/r/androiddev/comments/1g9tpmx/navigation_compose_recreating_viewmodel_each_time/)
+## Dagger room module

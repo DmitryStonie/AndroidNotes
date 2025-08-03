@@ -26,4 +26,15 @@ AttachedFileItem.Type.Image.value -> {
 Тема тесно связана с Manifest
 #### посмотреть intent-фильтры всех приложений на телефоне
 
+## Phone
+[How to make a phone call using intent in Android? - Stack Overflow](https://stackoverflow.com/questions/4275678/how-to-make-a-phone-call-using-intent-in-android)
 
+## Email
+[Common intents  |  App architecture  |  Android Developers](https://developer.android.com/guide/components/intents-common#Email)
+
+## SMS
+
+## Maps
+
+## startActivity deprecated
+context.startActivity(it)
